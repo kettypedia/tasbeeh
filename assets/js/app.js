@@ -90,9 +90,11 @@ function setRange(){
  * set all the counter inner text to zero.
  */
 function setToZero(){
-    document.getElementById("subhan_allah_counter").innerHTML = 0;
     document.getElementById("alhumdulillah_counter").innerHTML = 0;
+    tasbeeh.alhumdulillah = 0;
     document.getElementById("allah_hu_akbar_counter").innerHTML = 0;
-
+    tasbeeh.allah_hu_akbar = 0;
+    document.getElementById("subhan_allah_counter").innerHTML = 0;
+    tasbeeh.subhan_allah = 0;
 }
 
