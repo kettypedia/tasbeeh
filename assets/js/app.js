@@ -91,8 +91,8 @@ function setRange(){
  */
 function setToZero(){
     document.getElementById("subhan_allah_counter").innerHTML = 0;
-         document.getElementById("alhumdulillah_counter").innerHTML = 0;
-         document.getElementById("allah_hu_akbar_counter").innerHTML = 0;
+    document.getElementById("alhumdulillah_counter").innerHTML = 0;
+    document.getElementById("allah_hu_akbar_counter").innerHTML = 0;
 
 }
 
