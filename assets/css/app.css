@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background: #444554;
+    color:#fff;
+    height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header nav span {
+    font-size: 20px;
+    font-family: cursive;
+}
+main {
+    padding: 10px; 
+}
+#selection{
+    display: flex;
+    justify-content: space-around;
+}
+.textBox{
+    border: 1px solid #444554;
+    border-left: 4px solid #444554;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2px;
+    width: 100px;
+}
+.rangeButton {
+    border: 1px solid #444554;
+    border-left: 4px solid #444554;
+    box-shadow: 2px 2px 2px #444554;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+}
+#changeMode{
+    border: 1px solid #444554;
+    background: transparent;
+    border-left: 4px solid #444554;
+}
+.content {
+    width: 50%;
+    margin-left: 350px;
+}
+.messages{
+    background:  #444554;
+    border-radius: 5px;
+    margin-top:20px;
+    text-align: center;
+}
+.messages small{
+    color: #fffdfd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.tasbeeh{
+    border-bottom: 2px solid #000;
+    border-radius: 5px;
+    height: 150px;
+    padding: 20px;
+    position: relative;
+    width: 95%;
+}
+.tasbeeh img{
+    /*border: 1px solid #444554;*/
+    /*box-shadow: 15px 0px 10px -15px #444554;*/
+    cursor: pointer;
+    height: 150px;
+    left: 100px;
+    position: absolute;
+}
+
+.counter{
+    color: #444554;
+    font-size: 100px;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+footer{
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 1024px) and (min-width: 700px)
+{
+    .main{
+        padding-right: 50px;
+    }
+    .content {
+        margin-left: 0;
+        width: 100%;
+    }
+    .tasbeeh{
+        padding: 10px;
+        height: 150px;
+    }
+    .tasbeeh img{
+        left: 60px;
+        height: 150px;
+    }
+    .counter{ 
+        font-size:100px;
+        right: 60px;
+        top: 30px;
+    }
+}
+@media screen and (max-width: 699px) and (min-width: 300px) {
+    .content {
+        margin-left: 0;
+        width: 100%;
+    }
+    .tasbeeh{
+        height: 150px;
+        padding: 10px;
+    }
+    .tasbeeh img{
+        left: 10px;
+        height: 150px;
+        width: 150px;
+    }
+    .counter{ 
+        font-size:100px;
+        right: 30px;
+        top: 30px;
+    }
+}

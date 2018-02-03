@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./assets/css/app.css" type="text/css" rel="stylesheet" />
+    <title>Tasbeeh Counter</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span>
+            <!--<span>A Simple Tasbeeh Counter</span>-->
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+        <section id="selection">
+            <select id="changeMode">
+                <option selected value="default">Default (33/33/34)</option>
+                <option value="custom">Custom</option>
+            </select>
+        </section>
+        <section class="messages">
+        <small id="message"></small>
+        </section>
+        <section class="tasbeeh">
+            <img id="subhan_allah" src='./assets/images/subhan-Allah.jpg'>
+            <div id="subhan_allah_counter" class="counter">0</div>    
+        </section>
+        <section class="tasbeeh">
+                <img id="alhumdulillah" src='./assets/images/alhumdulillah.jpeg'>
+                <div id="alhumdulillah_counter" class="counter">0</div>    
+        </section>
+        <section class="tasbeeh">
+                <img id="allah_hu_akbar"src='./assets/images/allahuakbar.jpeg'>
+                <div id="allah_hu_akbar_counter" class="counter">0</div>    
+        </section>
+    </div>
+    </main>  
+    <footer>
+            <span>A Simple Tasbeeh Counter</span>
+            <p>&copy; Junaid Azhar Shaikh 2018</p>
+    </footer>      
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
